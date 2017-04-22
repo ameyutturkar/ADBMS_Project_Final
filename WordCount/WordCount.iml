@@ -7,6 +7,38 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file:///usr/local/bin/hadoop/share/hadoop/httpfs" />
+          <root url="file:///usr/local/bin/hadoop/share/hadoop/mapreduce" />
+          <root url="file:///usr/local/bin/hadoop/share/hadoop/yarn" />
+          <root url="file:///usr/local/bin/hadoop/share/hadoop/common" />
+          <root url="file:///usr/local/bin/hadoop/share/hadoop/hdfs" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file:///usr/local/bin/hadoop/share/hadoop/common/jdiff" />
+          <root url="file:///usr/local/bin/hadoop/share/hadoop/hdfs/jdiff" />
+        </SOURCES>
+        <jarDirectory url="file:///usr/local/bin/hadoop/share/hadoop/common" recursive="false" />
+        <jarDirectory url="file:///usr/local/bin/hadoop/share/hadoop/hdfs" recursive="false" />
+        <jarDirectory url="file:///usr/local/bin/hadoop/share/hadoop/mapreduce" recursive="false" />
+        <jarDirectory url="file:///usr/local/bin/hadoop/share/hadoop/yarn" recursive="false" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file:///usr/local/bin/hadoop/share/hadoop/common/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file:///usr/local/bin/hadoop/share/hadoop/common/lib" />
+        </SOURCES>
+        <jarDirectory url="file:///usr/local/bin/hadoop/share/hadoop/common/lib" recursive="false" />
+        <jarDirectory url="file:///usr/local/bin/hadoop/share/hadoop/common/lib" recursive="false" type="SOURCES" />
+      </library>
+    </orderEntry>
   </component>
 </module>
-
