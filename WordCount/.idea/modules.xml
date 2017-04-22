@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../BinningPattern/BinningPattern.iml" filepath="$PROJECT_DIR$/../BinningPattern/BinningPattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../PartitioningPattern/PartitioningPattern.iml" filepath="$PROJECT_DIR$/../PartitioningPattern/PartitioningPattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/../SecondarySorting/SecondarySorting.iml" filepath="$PROJECT_DIR$/../SecondarySorting/SecondarySorting.iml" />
       <module fileurl="file://$PROJECT_DIR$/WordCount.iml" filepath="$PROJECT_DIR$/WordCount.iml" />
     </modules>
