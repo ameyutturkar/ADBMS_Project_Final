@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="JoiningPattern:jar">
+    <output-path>$PROJECT_DIR$/../JoiningPattern/out/artifacts</output-path>
+    <root id="archive" name="JoiningPattern.jar">
+      <element id="module-output" name="JoiningPattern" />
+    </root>
+  </artifact>
+</component>
