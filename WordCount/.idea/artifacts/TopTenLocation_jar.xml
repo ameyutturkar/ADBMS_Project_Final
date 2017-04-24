@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="TopTenLocation:jar">
+    <output-path>$PROJECT_DIR$/../TopTenLocation/out/artifacts</output-path>
+    <root id="archive" name="TopTenLocation.jar">
+      <element id="module-output" name="TopTenLocation" />
+    </root>
+  </artifact>
+</component>

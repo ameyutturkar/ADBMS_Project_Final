@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/../FareAnalysis/FareAnalysis.iml" filepath="$PROJECT_DIR$/../FareAnalysis/FareAnalysis.iml" />
       <module fileurl="file://$PROJECT_DIR$/../PartitioningPattern/PartitioningPattern.iml" filepath="$PROJECT_DIR$/../PartitioningPattern/PartitioningPattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/../SecondarySorting/SecondarySorting.iml" filepath="$PROJECT_DIR$/../SecondarySorting/SecondarySorting.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../TopTenLocation/TopTenLocation.iml" filepath="$PROJECT_DIR$/../TopTenLocation/TopTenLocation.iml" />
       <module fileurl="file://$PROJECT_DIR$/WordCount.iml" filepath="$PROJECT_DIR$/WordCount.iml" />
     </modules>
   </component>

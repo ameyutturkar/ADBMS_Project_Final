@@ -2,15 +2,20 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="FareAnalysis:jar" />
+      <artifact name="TopTenLocation:jar" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c29c86c4-e998-444b-b2e5-585881f7531e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FareAnalysis/src/FareAnalysis/CompsiteKeyWritable.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FareAnalysis/src/FareAnalysis/GroupComparator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/PartitioningPattern_jar/PartitioningPattern.jar" afterPath="$PROJECT_DIR$/out/artifacts/PartitioningPattern_jar/PartitioningPattern.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TopTenLocation/TopTenLocation.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TopTenLocation/src/META-INF/MANIFEST.MF" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TopTenLocation/src/TopTenLocation/CustomWritableTopTen.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TopTenLocation/src/TopTenLocation/TopTenLocation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TopTenLocation/src/TopTenLocation/TopTen_Mapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/TopTenLocation_jar.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../FareAnalysis/src/META-INF/MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/FareAnalysis_jar/FareAnalysis.jar" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/FareAnalysis_jar.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/FareAnalysis_jar.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -31,11 +36,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="FareAnalysis.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../FareAnalysis/src/FareAnalysis/FareAnalysis.java">
+      <file leaf-file-name="TopTenLocation.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../TopTenLocation/src/TopTenLocation/TopTenLocation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="23" column="56" lean-forward="false" selection-start-line="23" selection-start-column="56" selection-end-line="23" selection-end-column="56" />
+            <state relative-caret-position="504">
+              <caret line="28" column="14" lean-forward="false" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -43,46 +48,67 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FareAnalysis_Mapper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../FareAnalysis/src/FareAnalysis/FareAnalysis_Mapper.java">
+      <file leaf-file-name="TopTen_Mapper.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../TopTenLocation/src/TopTenLocation/TopTen_Mapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="638">
-              <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+            <state relative-caret-position="260">
+              <caret line="24" column="89" lean-forward="false" selection-start-line="24" selection-start-column="89" selection-end-line="24" selection-end-column="89" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#431#459#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GroupComparator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../FareAnalysis/src/FareAnalysis/GroupComparator.java">
+      <file leaf-file-name="Mapper.class" pinned="false" current-in-tab="false">
+        <entry file="jar:///usr/local/bin/hadoop/share/hadoop/mapreduce/hadoop-mapreduce-client-core-2.7.3.jar!/org/apache/hadoop/mapreduce/Mapper.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="10" column="31" lean-forward="false" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+            <state relative-caret-position="276">
+              <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FareAnalysis_Reducer.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../FareAnalysis/src/FareAnalysis/FareAnalysis_Reducer.java">
+      <file leaf-file-name="MapTask.class" pinned="false" current-in-tab="false">
+        <entry file="jar:///usr/local/bin/hadoop/share/hadoop/mapreduce/hadoop-mapreduce-client-core-2.7.3.jar!/org/apache/hadoop/mapred/MapTask.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="28" column="49" lean-forward="true" selection-start-line="28" selection-start-column="49" selection-end-line="28" selection-end-column="49" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="205">
+              <caret line="320" column="0" lean-forward="false" selection-start-line="320" selection-start-column="0" selection-end-line="320" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CompsiteKeyWritable.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../FareAnalysis/src/FareAnalysis/CompsiteKeyWritable.java">
+      <file leaf-file-name="LocalJobRunner.class" pinned="false" current-in-tab="false">
+        <entry file="jar:///usr/local/bin/hadoop/share/hadoop/mapreduce/hadoop-mapreduce-client-common-2.7.3.jar!/org/apache/hadoop/mapred/LocalJobRunner.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1260">
-              <caret line="89" column="92" lean-forward="false" selection-start-line="89" selection-start-column="92" selection-end-line="89" selection-end-column="92" />
+            <state relative-caret-position="331">
+              <caret line="796" column="0" lean-forward="false" selection-start-line="796" selection-start-column="0" selection-end-line="796" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CustomWritableTopTen.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../TopTenLocation/src/TopTenLocation/CustomWritableTopTen.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="782">
+              <caret line="58" column="95" lean-forward="false" selection-start-line="58" selection-start-column="95" selection-end-line="58" selection-end-column="95" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#583#584#0" expanded="true" />
+                <element signature="e#615#616#0" expanded="true" />
+                <element signature="e#665#666#0" expanded="true" />
+                <element signature="e#707#708#0" expanded="true" />
+                <element signature="e#742#743#0" expanded="true" />
+                <element signature="e#773#774#0" expanded="true" />
+                <element signature="e#821#822#0" expanded="true" />
+                <element signature="e#861#862#0" expanded="true" />
+                <element signature="e#1302#1303#0" expanded="true" />
+                <element signature="e#1404#1405#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -90,11 +116,9 @@
       <file leaf-file-name="CustomWritableFA.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../FareAnalysis/src/FareAnalysis/CustomWritableFA.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="83" column="67" lean-forward="false" selection-start-line="83" selection-start-column="67" selection-end-line="83" selection-end-column="67" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="504">
+              <caret line="83" column="74" lean-forward="false" selection-start-line="83" selection-start-column="8" selection-end-line="83" selection-end-column="74" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -133,6 +157,10 @@
         <option value="$PROJECT_DIR$/../FareAnalysis/src/FareAnalysis/CompsiteKeyWritable.java" />
         <option value="$PROJECT_DIR$/../FareAnalysis/src/FareAnalysis/CustomWritableFA.java" />
         <option value="$PROJECT_DIR$/../FareAnalysis/src/FareAnalysis/FareAnalysis_Reducer.java" />
+        <option value="$PROJECT_DIR$/../TopTenLocation/src/TopTenLocation/CustomWritableTopTen.java" />
+        <option value="$PROJECT_DIR$/../TopTenLocation/src/TopTenLocation/TopTen_Reducer.java" />
+        <option value="$PROJECT_DIR$/../TopTenLocation/src/TopTenLocation/TopTenLocation.java" />
+        <option value="$PROJECT_DIR$/../TopTenLocation/src/TopTenLocation/TopTen_Mapper.java" />
       </list>
     </option>
   </component>
@@ -163,6 +191,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -171,7 +200,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="PartitioningPattern" />
+              <option name="myItemId" value="TopTenLocation" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -181,7 +210,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="PartitioningPattern" />
+              <option name="myItemId" value="TopTenLocation" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -189,7 +218,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="PartitioningPattern" />
+              <option name="myItemId" value="TopTenLocation" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -199,73 +228,30 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="PartitioningPattern" />
+              <option name="myItemId" value="TopTenLocation" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WordCount" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FareAnalysis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WordCount" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FareAnalysis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WordCount" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FareAnalysis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FareAnalysis" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.36551723" />
     <property name="js.eslint.eslintPackage" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="/usr/local/bin/hadoop/share/hadoop/common/lib" />
   </component>
-  <component name="RunManager" selected="Application.FareAnalysis">
+  <component name="RunManager" selected="Application.TopTenPickup">
     <configuration default="false" name="WordCount_TestLocal" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="WordCount.WordCount" />
@@ -670,10 +656,26 @@
       <envs />
       <method />
     </configuration>
-    <list size="3">
+    <configuration default="false" name="TopTenPickup" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="TopTenLocation.TopTenLocation" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="input output" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/../TopTenLocation" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="TopTenLocation" />
+      <envs />
+      <method />
+    </configuration>
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Application.Partitioning" />
       <item index="1" class="java.lang.String" itemvalue="Application.FareAnalysis" />
-      <item index="2" class="java.lang.String" itemvalue="Application.WordCount_TestLocal" />
+      <item index="2" class="java.lang.String" itemvalue="Application.TopTenPickup" />
+      <item index="3" class="java.lang.String" itemvalue="Application.WordCount_TestLocal" />
     </list>
     <recent_temporary>
       <list size="1">
@@ -702,12 +704,14 @@
       <workItem from="1492872163189" duration="1892000" />
       <workItem from="1492960782474" duration="849000" />
       <workItem from="1492961667635" duration="12447000" />
-      <workItem from="1492976748935" duration="1806000" />
+      <workItem from="1492976748935" duration="3448000" />
+      <workItem from="1492984000200" duration="649000" />
+      <workItem from="1492986020413" duration="13276000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45643000" />
+    <option name="totallyTimeSpent" value="61210000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1365" y="0" width="1922" height="1080" extended-state="6" />
@@ -716,7 +720,7 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299389" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -724,7 +728,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24439919" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33095723" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -736,7 +740,7 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39918533" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34114054" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -767,8 +771,14 @@
           <properties />
           <option name="timeStamp" value="11" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../TopTenLocation/src/TopTenLocation/TopTen_Mapper.java</url>
+          <line>41</line>
+          <properties />
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="27" />
+      <option name="time" value="38" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -777,41 +787,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/WordCount/WordCount_Reducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="25" column="1" lean-forward="false" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/WordCount/WordCount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/WordCount/WordCount_Mapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/WordCount/WordCount_Reducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/WordCount/WordCount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/WordCount/WordCount_Mapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -1020,9 +995,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="36" column="65" lean-forward="false" selection-start-line="36" selection-start-column="65" selection-end-line="36" selection-end-column="65" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1037,13 +1009,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="468">
           <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/local/bin/hadoop/share/hadoop/mapreduce/hadoop-mapreduce-client-core-2.7.3.jar!/org/apache/hadoop/mapred/MapTask.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="1286" column="0" lean-forward="false" selection-start-line="1286" selection-start-column="0" selection-end-line="1286" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1071,9 +1036,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1081,16 +1043,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="23" column="56" lean-forward="false" selection-start-line="23" selection-start-column="56" selection-end-line="23" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/local/bin/hadoop/share/hadoop/mapreduce/hadoop-mapreduce-client-core-2.7.3.jar!/org/apache/hadoop/mapreduce/Mapper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1105,7 +1057,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="10" column="31" lean-forward="false" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1113,27 +1064,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1260">
           <caret line="89" column="92" lean-forward="false" selection-start-line="89" selection-start-column="92" selection-end-line="89" selection-end-column="92" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../FareAnalysis/src/FareAnalysis/CustomWritableFA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="83" column="67" lean-forward="false" selection-start-line="83" selection-start-column="67" selection-end-line="83" selection-end-column="67" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../FareAnalysis/src/FareAnalysis/FareAnalysis_Mapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1141,16 +1071,101 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="291">
           <caret line="51" column="9" lean-forward="true" selection-start-line="51" selection-start-column="9" selection-end-line="51" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../FareAnalysis/src/FareAnalysis/FareAnalysis_Reducer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="28" column="49" lean-forward="true" selection-start-line="28" selection-start-column="49" selection-end-line="28" selection-end-column="49" />
+        <state relative-caret-position="264">
+          <caret line="32" column="42" lean-forward="true" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../FareAnalysis/src/FareAnalysis/FareAnalysis_Mapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="25" column="41" lean-forward="true" selection-start-line="24" selection-start-column="12" selection-end-line="25" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TopTenLocation/src/TopTenLocation/TopTen_Reducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="98" lean-forward="false" selection-start-line="8" selection-start-column="98" selection-end-line="8" selection-end-column="98" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TopTenLocation/src/TopTenLocation/TopTenLocation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="28" column="14" lean-forward="false" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../FareAnalysis/src/FareAnalysis/CustomWritableFA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="83" column="74" lean-forward="false" selection-start-line="83" selection-start-column="8" selection-end-line="83" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TopTenLocation/src/TopTenLocation/CustomWritableTopTen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="58" column="95" lean-forward="false" selection-start-line="58" selection-start-column="95" selection-end-line="58" selection-end-column="95" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#583#584#0" expanded="true" />
+            <element signature="e#615#616#0" expanded="true" />
+            <element signature="e#665#666#0" expanded="true" />
+            <element signature="e#707#708#0" expanded="true" />
+            <element signature="e#742#743#0" expanded="true" />
+            <element signature="e#773#774#0" expanded="true" />
+            <element signature="e#821#822#0" expanded="true" />
+            <element signature="e#861#862#0" expanded="true" />
+            <element signature="e#1302#1303#0" expanded="true" />
+            <element signature="e#1404#1405#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/local/bin/hadoop/share/hadoop/mapreduce/hadoop-mapreduce-client-core-2.7.3.jar!/org/apache/hadoop/mapred/MapTask.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="320" column="0" lean-forward="false" selection-start-line="320" selection-start-column="0" selection-end-line="320" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/local/bin/hadoop/share/hadoop/mapreduce/hadoop-mapreduce-client-common-2.7.3.jar!/org/apache/hadoop/mapred/LocalJobRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="796" column="0" lean-forward="false" selection-start-line="796" selection-start-column="0" selection-end-line="796" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/local/bin/hadoop/share/hadoop/mapreduce/hadoop-mapreduce-client-core-2.7.3.jar!/org/apache/hadoop/mapreduce/Mapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TopTenLocation/src/TopTenLocation/TopTen_Mapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="24" column="89" lean-forward="false" selection-start-line="24" selection-start-column="89" selection-end-line="24" selection-end-column="89" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#431#459#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1161,7 +1176,7 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>FareAnalysis:jar</last-edited>
+          <last-edited>PartitioningPattern:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1210,7 +1225,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>FareAnalysis</last-edited>
+          <last-edited>TopTenLocation</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
