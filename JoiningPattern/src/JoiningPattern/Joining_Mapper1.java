@@ -21,6 +21,8 @@ public class Joining_Mapper1 extends Mapper<Object, Text, CompsiteKeyWritable, T
                 return;
             }
 
+            String medallion = arr[0];
+            String hackLicense = arr[1];
             String pickupDateTime = arr[3];
             String vendorID = arr[2];
             String paymentType = arr[4];
@@ -28,9 +30,9 @@ public class Joining_Mapper1 extends Mapper<Object, Text, CompsiteKeyWritable, T
             String surcharge = arr[6];
             String tax = arr[7];
             String toll = arr[8];
-            String totalAmount = arr[9];
+            String totalAmount = arr[10];
             String outValue = new StringBuilder().append("M1").append(",").append(paymentType).append(",").append(fareAmount).append(",").append(surcharge).append(",").append(tax).append(",").append(toll).append(",").append(totalAmount).toString();
-            CompsiteKeyWritable ckw = new CompsiteKeyWritable(vendorID, pickupDateTime);
+            CompsiteKeyWritable ckw = new CompsiteKeyWritable(medallion, hackLicense, vendorID, pickupDateTime);
             context.write(ckw, new Text(outValue));
         }
         catch (Exception e)

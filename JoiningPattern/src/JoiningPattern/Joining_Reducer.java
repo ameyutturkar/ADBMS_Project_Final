@@ -23,7 +23,7 @@ public class Joining_Reducer extends Reducer<CompsiteKeyWritable, Text, Text, Te
         joinType = context.getConfiguration().get("join.type");
     }
 
-    public void reduce(Text key, Iterable<Text> values, Context context) throws IOException, InterruptedException {
+    public void reduce(CompsiteKeyWritable key, Iterable<Text> values, Context context) throws IOException, InterruptedException {
         // Clear our lists
         listA.clear();
         listB.clear();

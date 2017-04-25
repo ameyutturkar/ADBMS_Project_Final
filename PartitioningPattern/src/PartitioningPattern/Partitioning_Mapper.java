@@ -10,7 +10,8 @@ import java.io.IOException;
  */
 public class Partitioning_Mapper extends Mapper<Object, Text, Text, Text>
 {
-    public void map(Object key, Text value, Context context) throws IOException, InterruptedException {
+    public void map(Object key, Text value, Context context) throws IOException, InterruptedException
+    {
         Text date = new Text();
         Text dateOnly = new Text();
 
