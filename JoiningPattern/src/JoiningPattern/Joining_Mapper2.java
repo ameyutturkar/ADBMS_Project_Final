@@ -16,11 +16,13 @@ public class Joining_Mapper2 extends Mapper<Object, Text, CompsiteKeyWritable, T
         {
             String arr[] = value.toString().split(",");
 
-            if(arr[0].equalsIgnoreCase("medallion"))
+            if(arr[0].equalsIgnoreCase("medallion") || arr[10].equals(null) || arr[11].equals(null) || arr[12].equals(null) || arr[13].equals(null))
             {
                 return;
             }
 
+            String medallion = arr[0];
+            String hackLicense = arr[1];
             String pickupDateTime = arr[5];
             String vendorID = arr[2];
             String tripTime = arr[8];
@@ -31,7 +33,7 @@ public class Joining_Mapper2 extends Mapper<Object, Text, CompsiteKeyWritable, T
             String dropLatitude = arr[13];
 
             String outValue = new StringBuilder().append("M2").append(",").append(tripTime).append(",").append(tripDistance).append(",").append(pickupLongitude).append(",").append(pickupLatitude).append(",").append(dropLongitude).append(",").append(dropLatitude).toString();
-            CompsiteKeyWritable ckw = new CompsiteKeyWritable(vendorID, pickupDateTime);
+            CompsiteKeyWritable ckw = new CompsiteKeyWritable(medallion, hackLicense, vendorID, pickupDateTime);
             context.write(ckw, new Text(outValue));
         }
         catch (Exception e)

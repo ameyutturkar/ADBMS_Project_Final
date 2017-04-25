@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../BinningPattern/BinningPattern.iml" filepath="$PROJECT_DIR$/../BinningPattern/BinningPattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/../FareAnalysis/FareAnalysis.iml" filepath="$PROJECT_DIR$/../FareAnalysis/FareAnalysis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../JoinAnalysis/JoinAnalysis.iml" filepath="$PROJECT_DIR$/../JoinAnalysis/JoinAnalysis.iml" />
       <module fileurl="file://$PROJECT_DIR$/../JoiningPattern/JoiningPattern.iml" filepath="$PROJECT_DIR$/../JoiningPattern/JoiningPattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/../PartitioningPattern/PartitioningPattern.iml" filepath="$PROJECT_DIR$/../PartitioningPattern/PartitioningPattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/../SecondarySorting/SecondarySorting.iml" filepath="$PROJECT_DIR$/../SecondarySorting/SecondarySorting.iml" />
